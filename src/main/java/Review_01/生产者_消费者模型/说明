@@ -1,0 +1,5 @@
+分析：
+    资源类：      Student       (产品)
+    设置学生数据：SetThread     (生产者)
+    获取学生数据：GetThread     (消费者)
+    测试类：      StudentDmeo   (测试类)
