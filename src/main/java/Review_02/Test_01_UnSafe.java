@@ -12,7 +12,7 @@ import java.lang.reflect.Field;
  */
 public  class Test_01_UnSafe {
 
-    static   Unsafe unsafe;
+    static Unsafe unsafe;
 
     static  long stateOffset;
 
