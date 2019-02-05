@@ -17,10 +17,9 @@ public class Test_01_CopyOnWriteArrayList {
         CopyOnWriteArrayList copyOnWriteArrayList = new CopyOnWriteArrayList();
         CopyOnWriteArraySet copyOnWriteArraySet = new CopyOnWriteArraySet();
 
-        
         ArrayList arrayList = new ArrayList();
 
-        Set set = new HashSet();
+        Set set = new HashSet();      
 
     }
 }
