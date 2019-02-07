@@ -19,7 +19,7 @@ public class Test_01_CopyOnWriteArrayList {
 
         ArrayList arrayList = new ArrayList();
 
-        Set set = new HashSet();      
+        Set set = new HashSet();
 
     }
 }
