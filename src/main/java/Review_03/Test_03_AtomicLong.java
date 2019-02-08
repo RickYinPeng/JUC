@@ -12,7 +12,7 @@ public class Test_03_AtomicLong {
 
     //1、创建Long型原子计数器
     private static AtomicLong atomicLong = new AtomicLong();
-
+    
     //2、创建数据源
     private static Integer[] arrayOne = new Integer[]{0,1,2,3,0,5,6,0,56,0};
     private static Integer[] arrayTwo = new Integer[]{10,1,2,3,0,5,6,0,56,0};
