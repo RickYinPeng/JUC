@@ -13,5 +13,6 @@ public class Test_07_ReentrantReadWriteLock {
         ReentrantReadWriteLock reentrantReadWriteLock = new ReentrantReadWriteLock();
         System.out.println((1 << 16));
         System.out.println(Integer.toBinaryString((1<<16)-1));
+        Thread t = new Thread();
     }
 }
