@@ -11,7 +11,5 @@ import java.util.concurrent.LinkedBlockingQueue;
 public class Test_02_LinkedBlockingQueue {
     public static void main(String[] args) {
         LinkedBlockingQueue linkedBlockingQueue = new LinkedBlockingQueue();
-
-        
     }
 }
