@@ -1,5 +1,6 @@
 package Review_08;
 
+import java.util.concurrent.Executors;
 import java.util.concurrent.ThreadPoolExecutor;
 
 /**
@@ -10,6 +11,14 @@ import java.util.concurrent.ThreadPoolExecutor;
  */
 public class Test_01 {
     public static void main(String[] args) {
-        ThreadPoolExecutor threadPoolExecutor = new ThreadPoolExecutor(0,0,0,null,null);
+        ThreadPoolExecutor threadPoolExecutor = (ThreadPoolExecutor) Executors.newFixedThreadPool(5);
+
+        threadPoolExecutor.submit(new Runnable() {
+            @Override
+            public void run() {
+                System.out.println("你好，线程池");
+            }
+        });
+
     }
 }
