@@ -15,7 +15,7 @@ public class Test_12_ThreadLocal {
     public static void main(String[] args) {
         threadLocal.set("hello world");
         /**
-         * 启动子线程
+         * 启动子线程nizanlinewozaihelin
          */
         Thread thread = new Thread(new Runnable() {
             @Override
