@@ -1,6 +1,7 @@
 package Review_06;
 
 import java.util.concurrent.locks.AbstractQueuedLongSynchronizer;
+import java.util.concurrent.locks.ReentrantLock;
 
 /**
  * @author RickYinPeng
@@ -11,5 +12,9 @@ import java.util.concurrent.locks.AbstractQueuedLongSynchronizer;
 public class Test_06_AQS {
     public static void main(String[] args) {
         AbstractQueuedLongSynchronizer abstractQueuedLongSynchronizer = null;
+        ReentrantLock reentrantLock = new ReentrantLock();
+
+        reentrantLock.lock();
+
     }
 }
